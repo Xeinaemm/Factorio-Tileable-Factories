@@ -5,6 +5,10 @@ Book of factories that are as simple and compact as possible to build advanced f
 <details>
 <summary>Changelog</summary>
 
+## v0.20.0
+- Added spoilage management to Biolab. When using Agricultural science, do not choose belts that use a splitter, otherwise, the biolab will be clogged forever and require rebuilding.
+- Unified throughputs per second (TPS) according to legendary quality and maximum productivity bonus. Some factories may produce more than TPS, but this will not change the number of factories needed unless you want to build 10+ in one place and find the most optimal number of belts. The most prominent example is rocket fuel factories or Production Science for which bandwidth is 20% higher than TPS. It's a compromise between pushing it to its limits and presenting values ​​that are easy to understand, calculate, and use.
+- [Tests] Added tolerance parameter to tests.
 ## v0.19.0
 
 - Blueprints can now target any quality except the Rails book.
