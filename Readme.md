@@ -5,10 +5,19 @@ Book of factories that are as simple and compact as possible to build advanced f
 <details>
 <summary>Changelog</summary>
 
+## v0.21.0
+- Added Lubricant for each planet.
+- Grouped Nauvis-specific plans into A book.
+- Reduced Agricultural tower farm throughput from 39/s to 30/s. Did I miss something, did the growth time change from 4m to 5m?
+- Updated FAQ.
+- [Tests] Added tolerance parameter to grid plans.
+- [Tests] Added throughput information and blueprint icons on a map display.
+
 ## v0.20.0
 - Added spoilage management to Biolab. When using Agricultural science, do not choose belts that use a splitter, otherwise, the biolab will be clogged forever and require rebuilding.
-- Unified throughputs per second (TPS) according to legendary quality and maximum productivity bonus. Some factories may produce more than TPS, but this will not change the number of factories needed unless you want to build 10+ in one place and find the most optimal number of belts. The most prominent example is rocket fuel factories or Production Science for which bandwidth is 20% higher than TPS. It's a compromise between pushing it to its limits and presenting values ​​that are easy to understand, calculate, and use.
+- Unified throughputs per second (TPS) according to legendary quality and maximum productivity bonus. Some factories may produce more than TPS, but this will not change the number of factories needed unless you want to build 10+ in one place and find the most optimal number of belts. The most prominent example is rocket fuel factories or Production Science for which bandwidth is 20% higher than TPS. It's a compromise between pushing it to its limits and presenting values that are easy to understand, calculate, and use.
 - [Tests] Added tolerance parameter to tests.
+  
 ## v0.19.0
 
 - Blueprints can now target any quality except the Rails book.
