@@ -5,6 +5,12 @@ Book of factories that are as simple and compact as possible to build advanced f
 <details>
 <summary>Changelog</summary>
 
+## v0.23.0
+- Added fusion reactor, asteroid crusher, and shredder for space platform.
+- Changed calcite belt direction to be similar to the space version for iron, copper plates, and steel for the Vulcanus. Easier to build many of these in a row.
+- Increased throughput of railgun ammo factory from 20/s to 40/s.
+- Added boiler to quality switch upgrade planners.
+  
 ## v0.22.0
 - Added Military book with piercing ammo, explosive rockets, and railgun ammo.
 - Added iron, copper plates, and steel for the Vulcanus and Space platform.
