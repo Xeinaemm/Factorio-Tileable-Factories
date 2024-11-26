@@ -5,9 +5,15 @@ Book of factories that are as simple and compact as possible to build advanced f
 <details>
 <summary>Changelog</summary>
 
+## v0.22.0
+- Added Military book with piercing ammo, explosive rockets, and railgun ammo.
+- Added iron, copper plates, and steel for the Vulcanus and Space platform.
+- Added explosives for Nauvis and Space platform.
+- Removed Rails book as it's a broken experimental branch compared to the current version of factories and needs a redesign. You can find it on GitHub in the development folder.
+
 ## v0.21.0
 - Added Lubricant for each planet.
-- Grouped Nauvis-specific plans into A book.
+- Grouped Nauvis-specific plans into a book.
 - Reduced Agricultural tower farm throughput from 39/s to 30/s. Did I miss something, did the growth time change from 4m to 5m?
 - Updated FAQ.
 - [Tests] Added tolerance parameter to grid plans.
