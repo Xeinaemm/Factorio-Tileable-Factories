@@ -5,6 +5,11 @@ Book of factories that are as simple and compact as possible to build advanced f
 <details>
 <summary>Changelog</summary>
 
+## v0.24.0
+- Added Space Science (240/s) and moved the old one to the Substitutes book.
+- Improved asteroid crusher load balancer. Now it can reach 950/s when one product clogs the entire system.
+- Added stock quantity parameter to Quality Enhancers.
+
 ## v0.23.0
 - Added fusion reactor, asteroid crusher, and shredder for space platform.
 - Changed calcite belt direction to be similar to the space version for iron, copper plates, and steel for the Vulcanus. Easier to build many of these in a row.
