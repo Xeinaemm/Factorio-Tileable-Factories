@@ -5,6 +5,14 @@ Book of factories that are as simple and compact as possible to build advanced f
 <details>
 <summary>Changelog</summary>
 
+## v0.25.0
+- Added all military and pipe-related factories, needed in bulk to perform wall maintenance work when using [10 Books Full of Rails](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails).
+- Replaced heating towers with Recyclers at Lubricant factory for Nauvis. This adds no value and allows for a 20% reduction in space.
+- Changed the direction of the end of the belt in Promethium Science to prevent Biter eggs from spoiling.
+- Tweaked asteroid crusher. Now it produces stable 960/s when one product clogs the entire system.
+- Removed items related to god controller from the main book.
+- [Tests] The floating-point arithmetic of fluid pumping speed is more accurate, has an error of less than 0.01% compared to game mechanics, and doesn't cause integer overflow.
+
 ## v0.24.0
 - Added Space Science (240/s) and moved the old one to the Substitutes book.
 - Improved asteroid crusher load balancer. Now it can reach 950/s when one product clogs the entire system.
@@ -162,7 +170,7 @@ Book of factories that are as simple and compact as possible to build advanced f
 - Added Battery factory.
 - Rebuilt sulfur and sulfuric acid setup, same space, twice more sulfur(480/s), and 3 times more sulfuric acid(9000/s). Force build will work on previous versions.
 - Moved some electric poles in the rocket fuel factory to fix unplanned asymmetrical imperfections.
-- Added experimental rail version of factories integrated with [10 Books Full of Rails](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails")
+- Added experimental rail version of factories integrated with [10 Books Full of Rails](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails)
 
 ## v0.2.0
 
