@@ -5,6 +5,10 @@ Book of factories that are as simple and compact as possible to build advanced f
 <details>
 <summary>Changelog</summary>
 
+## v0.26.0
+- Added fuel factories to space platforms and the final part of the factories needed for [10 Books Full of Rails](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails), including robots and solar elements.
+- Updated blueprint descriptions.
+
 ## v0.25.0
 - Added all military and pipe-related factories, needed in bulk to perform wall maintenance work when using [10 Books Full of Rails](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails).
 - Replaced heating towers with Recyclers at Lubricant factory for Nauvis. This adds no value and allows for a 20% reduction in space.
