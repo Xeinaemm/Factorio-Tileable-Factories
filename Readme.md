@@ -5,6 +5,13 @@ Book of factories that are as simple and compact as possible to build advanced f
 <details>
 <summary>Changelog</summary>
 
+## v0.27.0
+- Added Modules factories (6/s).
+- Redesigned Military and Production Science, increased throughput from 80/s to 240/s, and sorted inputs by type. Moved old designs to the 'To remove' book. Military Science now requires walls rather than raw materials because otherwise, you would need an extra 8 belts of stone.
+- Redesigned Agricultural Science, increased throughput from 60/s to 120/s. Moved the old design to the 'To remove' book.
+- Halved the number of belt inputs in Utility Science.
+- Updated book image.
+
 ## v0.26.0
 - Added fuel factories to space platforms and the final part of the factories needed for [10 Books Full of Rails](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails), including robots and solar elements.
 - Updated blueprint descriptions.
