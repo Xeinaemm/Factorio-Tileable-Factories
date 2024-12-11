@@ -5,6 +5,13 @@ Book of factories that are as simple and compact as possible to build advanced f
 <details>
 <summary>Changelog</summary>
 
+## v0.28.0
+- Added belt and underground belt factories.
+- Redesigned and increased the throughput of the robot factory from 40/s to 80/s. This is 20% more space efficient than using two of 40/s.
+- Revisited all blueprints and the space of most factories was reduced by 5-20%. In many cases, recyclers are more efficient than heating towers. The plans also use my belt balancers, which reduce space by 2x-10x compared to Raynquist's Belt Balancers.
+- Fusion reactor (22.5GW) operates on normal-quality substations without power losses.
+- [Tests] Added description to constant values used in fluid tests. 
+  
 ## v0.27.0
 - Added Modules factories (6/s).
 - Redesigned Military and Production Science, increased throughput from 80/s to 240/s, and sorted inputs by type. Moved old designs to the 'To remove' book. Military Science now requires walls rather than raw materials because otherwise, you would need an extra 8 belts of stone.
