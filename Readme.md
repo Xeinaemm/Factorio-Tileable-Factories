@@ -5,9 +5,14 @@ Book of factories that are as simple and compact as possible to build advanced f
 <details>
 <summary>Changelog</summary>
 
+## v0.29.0
+- Added splitter, bulk inserter, stack inserter, refined concret (vulcanus), space platform foundation, and beacon factories.
+- Redesigned belt and underground belts to use vulcanus-specific recipes and also moved them alongside modules to planet-specific books
+- Removed "To remove" book.
+
 ## v0.28.0
 - Added belt and underground belt factories.
-- Redesigned and increased the throughput of the robot factory from 40/s to 80/s. This is 20% more space efficient than using two of 40/s.
+- Redesigned and increased the robot factory's throughput from 40/s to 80/s. This is 20% more space efficient than using two 40/s.
 - Revisited all blueprints and the space of most factories was reduced by 5-20%. In many cases, recyclers are more efficient than heating towers. The plans also use my belt balancers, which reduce space by 2x-10x compared to Raynquist's Belt Balancers.
 - Fusion reactor (22.5GW) operates on normal-quality substations without power losses.
 - [Tests] Added description to constant values used in fluid tests. 
