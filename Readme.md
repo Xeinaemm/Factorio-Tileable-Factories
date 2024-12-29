@@ -5,9 +5,15 @@ Book of factories that are as simple and compact as possible to build advanced f
 <details>
 <summary>Changelog</summary>
 
+## v0.29.1
+- Fixed misplaced inserters and Requester chest in Foundry Quality Enhancer ([Issue 3](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/3))
+- Rebuilt refined concrete (Vulcanus) factory to hit 240/s when a problem with steam condensation is fixed ([Issue 118644](https://forums.factorio.com/118644))
+- One steel plate input was removed in Space Science.
+- Added tileable input belts for Biolab.
+
 ## v0.29.0
-- Added splitter, bulk inserter, stack inserter, refined concret (vulcanus), space platform foundation, and beacon factories.
-- Redesigned belt and underground belts to use vulcanus-specific recipes and also moved them alongside modules to planet-specific books
+- Added splitter, bulk inserter, stack inserter, refined concrete (Vulcanus), space platform foundation, and beacon factories.
+- Redesigned belt and underground belts to use Vulcanus-specific recipes and also moved them alongside modules to planet-specific books
 - Removed "To remove" book.
 
 ## v0.28.0
