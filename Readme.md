@@ -2,6 +2,8 @@
 
 Book of factories that are as simple and compact as possible to build advanced factories.
 
+You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq3vJ2slIWEDAXEeM) or [Factorioprints](https://factorioprints.com/view/-OBdq3vJ2slIWEDAXEeM).
+
 <details>
 <summary>Changelog</summary>
 
