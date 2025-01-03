@@ -7,10 +7,21 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.30.0
+- Add multipurpose space platform - Spear.
+- Added space deconstructor to remove items from blueprints that can be safely removed in space.
+- Increased steel plate factory throughput from 160/s to 240/s. Added Gleba steel plate factory.
+- Quality Enhancer stock quantity is limited to legendary items. When the buffer is full, all remaining resources will be trashed to maximize resource sharing. ([Issue 4](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/4))
+- Fixed fluoroketone (hot) overflow bug in a fluoroketone factory. Now factory prioritizes external input of fluoroketone (hot). ([Issue 5](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/5))
+- Reduced space of most Aquilo factories by 20-50%. ([Issue 8](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/8))
+- Added unsafe downgrade planners for belts, splitters, and inserters. They are unsafe because reverting requires a super force build of an initial blueprint on a placed factory. Never use this against a book. For now, not every blueprint can be downgraded because of the turbo underground belt length requirements. ([Issue 10](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/10))
+- Fixed input belts in space iron, steel, and copper factories that prevented them from being tiled.
+- Removed external Substations in the Explosive rocket factory.
+
 ## v0.29.1
 - Fixed misplaced inserters and Requester chest in Foundry Quality Enhancer ([Issue 3](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/3))
 - Rebuilt refined concrete (Vulcanus) factory to hit 240/s when a problem with steam condensation is fixed ([Issue 118644](https://forums.factorio.com/118644))
-- One steel plate input was removed in Space Science.
+- One iron plate input was removed in Space Science.
 - Added tileable input belts for Biolab.
 
 ## v0.29.0
