@@ -7,8 +7,13 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.30.1
+- Added missing pipe connection of fluoroketone (hot) in fluoroketone factory([Issue 12](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/12))
+- Removed clog related to overflow of petroleum gas in Vulcanus fuel factory([Issue 13](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/13))
+- Reduced space of fusion power cell factory by another 10%.
+
 ## v0.30.0
-- Add multipurpose space platform - Spear.
+- Added multipurpose space platform - Spear.
 - Added space deconstructor to remove items from blueprints that can be safely removed in space.
 - Increased steel plate factory throughput from 160/s to 240/s. Added Gleba steel plate factory.
 - Quality Enhancer stock quantity is limited to legendary items. When the buffer is full, all remaining resources will be trashed to maximize resource sharing. ([Issue 4](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/4))
