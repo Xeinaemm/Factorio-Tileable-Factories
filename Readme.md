@@ -7,6 +7,15 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.31.0
+- Added silo and wagon drilling, 2640/s and 3840/s, respectively.
+- Rebuilt the water supply for the Plastic and Refined Concrete factories in Vulcanus to accommodate (another) game fluid changes.
+- [Tests] Reworked the test lab, including a testing framework for better maintenance.
+- Fixed fusion reactor low power under load ([Issue 16](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/16))
+- Added Holmium Ore to unwanted products in Quality Recycler ([Issue 17](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/17))
+- Added missing pipe in quantum processor factory ([Issue 18](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/18))
+- Many minor changes, such as adding missing power poles, circuit network constraints, or additional inputs/outputs for better blueprint tiling.
+  
 ## v0.30.1
 - Added missing pipe connection of fluoroketone (hot) in fluoroketone factory([Issue 12](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/12))
 - Removed clog related to overflow of petroleum gas in Vulcanus fuel factory([Issue 13](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/13))
