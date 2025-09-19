@@ -7,6 +7,13 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.32.0
+- Added Smart Malls. Mostly from early to late game and transition to Quality Enhancers.
+- Added new Quality Enhancers and reduced space of rest by 20-40% thanks to new circuit network changes.
+- Reduced space by 15-20% of Iron/Copper/Steel factories for Vulcanus and Space.
+- Updated FAQ
+- [Tests] Removed redundant combinators
+
 ## v0.31.0
 - Added silo and wagon drilling, 2640/s and 3840/s, respectively.
 - Rebuilt the water supply for the Plastic and Refined Concrete factories in Vulcanus to accommodate (another) game fluid changes.
