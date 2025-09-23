@@ -7,6 +7,10 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.33.0
+- Added input requirements to every factory and fixed many minor issues.
+- Added universal Refined Concrete(240/s) factory.
+
 ## v0.32.0
 - Added Smart Malls. Mostly from early to late game and transition to Quality Enhancers.
 - Added new Quality Enhancers and reduced space of rest by 20-40% thanks to new circuit network changes.
