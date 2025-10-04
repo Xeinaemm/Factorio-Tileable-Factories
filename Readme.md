@@ -7,6 +7,14 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.35.0
+- Added sulfur factory(120/s and 240/s) for Vulcanus.
+- Added timer and counter measurement tools.
+- Redesigned, compacted, and pushed the overlooked factories to their limits.
+- Removed poles and gate factories because they can be crafted in the smart mall.
+- Reorganized books.
+- Updated FAQ.
+
 ## v0.34.0
 - Added artillery shell(60/s), pipes(240/s, 120/s), ice platform(12/s), foundation(36/s), scrap recycler(120/s) factories.
 - Removed the spear (spaceship) as it no longer serves its purpose and requires a redesign.
