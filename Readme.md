@@ -7,6 +7,11 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.36.0
+- Removed laser turret and mines factory.
+- UPS-optimized.
+- Lots of polishing of minor things.
+
 ## v0.35.0
 - Added sulfur factory(120/s and 240/s) for Vulcanus.
 - Added timer and counter measurement tools.
