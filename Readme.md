@@ -7,6 +7,12 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.37.0
+- Removed substitutes for sulfur, pipes, lubricant, and green circuit.
+- Reduced the number of belts from 7 to 4 of iron plates for artillery shells
+- Unified Metallurgic science with other sciences to 240/s.
+- Updated FAQ
+  
 ## v0.36.0
 - Removed laser turret and mines factory.
 - UPS-optimized.
