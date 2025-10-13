@@ -7,8 +7,15 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.39.0
+- [FIX] Removed clog possibility from the newly introduced Quality Recycler.
+- Renamed Quality Enhancer to Quality Upcycler to align it with current terminology.
+- Added Storage to Farm Control Panel. By default, request all produced items by Smart Mall, plus allows defining additional ones.
+- Removed unnecessary logistic groups created for powering fusion reactor blueprints.
+- Updated FAQ and descriptions.
+
 ## v0.38.0
-- Added Farm Control Panel that allows control of Smart Mall, Quality Enhancer, and Quality Recyler farms at scale.
+- Added Farm Control Panel that allows control of Smart Mall, Quality Enhancer, and Quality Recycler farms at scale.
 - Quality Enhancer and Smart Mall farms, connected by a green wire, become a multi-functional grinder that can be scaled infinitely.
 - Added Quality Recycler for casino ships and updated unwanted products to include chunks.
 - Scrap Recycler(bot network), Quality Recyclers, and Shredder are the same size to fit almost all types of Fulgora islands or ships.
