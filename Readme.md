@@ -7,6 +7,11 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.40.0
+- Added Progress bar in tools.
+- Added 45 MW backup power plant and 170 MW solar power plant with ratio adjustments for quality.
+- Connected internal water intake of the Heating tower power plant.
+
 ## v0.39.0
 - [FIX] Removed clog possibility from the newly introduced Quality Recycler.
 - Renamed Quality Enhancer to Quality Upcycler to align it with current terminology.
