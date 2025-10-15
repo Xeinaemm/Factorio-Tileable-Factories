@@ -7,6 +7,10 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.41.0
+- Added Quality Upcycler for casino ships.
+- Removed chunk filters for unwanted products as they now have separate Quality Upcycler and Quality Recycler.
+
 ## v0.40.0
 - Added Progress bar in tools.
 - Added 45 MW backup power plant and 170 MW solar power plant with ratio adjustments for quality.
