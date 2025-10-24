@@ -7,6 +7,15 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.42.0
+- Unsafe downgrades for belts and inserters became safe switches and moved it to Upgrade & Switch tab.
+- Unified inserters and removed belt braiding/weaving techniques.
+- Replaced Recyclers with Heating Towers where possible for Gleba blueprints.
+- Included only one quarter of solar power plant. 42.5 MW out of 170 MW.
+- Removed space science(5/s) space platform.
+- Reduced book size by 9%.
+- Lots of minor changes.
+
 ## v0.41.0
 - Added Quality Upcycler for casino ships.
 - Removed chunk filters for unwanted products as they now have separate Quality Upcycler and Quality Recycler.
@@ -24,8 +33,8 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 - Updated FAQ and descriptions.
 
 ## v0.38.0
-- Added Farm Control Panel that allows control of Smart Mall, Quality Enhancer, and Quality Recycler farms at scale.
-- Quality Enhancer and Smart Mall farms, connected by a green wire, become a multi-functional grinder that can be scaled infinitely.
+- Added Farm Control Panel that allows control of Smart Mall, Quality Upcycler, and Quality Recycler farms at scale.
+- Quality Upcycler and Smart Mall farms, connected by a green wire, become a multi-functional grinder that can be scaled infinitely.
 - Added Quality Recycler for casino ships and updated unwanted products to include chunks.
 - Scrap Recycler(bot network), Quality Recyclers, and Shredder are the same size to fit almost all types of Fulgora islands or ships.
 - Ice platform factory is tileable with each other.
@@ -61,8 +70,8 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 - Added tools to measure throughput.
 
 ## v0.32.0
-- Added Smart Malls. Mostly from early to late game and transition to Quality Enhancers.
-- Added new Quality Enhancers and reduced space of rest by 20-40% thanks to new circuit network changes.
+- Added Smart Malls. Mostly from early to late game and transition to Quality Upcyclers.
+- Added new Quality Upcyclers and reduced space of rest by 20-40% thanks to new circuit network changes.
 - Reduced space by 15-20% of Iron/Copper/Steel factories for Vulcanus and Space.
 - Updated FAQ
 - [Tests] Removed redundant combinators
@@ -85,7 +94,7 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 - Added multipurpose space platform - Spear.
 - Added space deconstructor to remove items from blueprints that can be safely removed in space.
 - Increased steel plate factory throughput from 160/s to 240/s. Added Gleba steel plate factory.
-- Quality Enhancer stock quantity is limited to legendary items. When the buffer is full, all remaining resources will be trashed to maximize resource sharing. ([Issue 4](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/4))
+- Quality Upcycler stock quantity is limited to legendary items. When the buffer is full, all remaining resources will be trashed to maximize resource sharing. ([Issue 4](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/4))
 - Fixed fluoroketone (hot) overflow bug in a fluoroketone factory. Now factory prioritizes external input of fluoroketone (hot). ([Issue 5](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/5))
 - Reduced space of most Aquilo factories by 20-50%. ([Issue 8](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/8))
 - Added unsafe downgrade planners for belts, splitters, and inserters. They are unsafe because reverting requires a super force build of an initial blueprint on a placed factory. Never use this against a book. For now, not every blueprint can be downgraded because of the turbo underground belt length requirements. ([Issue 10](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/10))
@@ -93,7 +102,7 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 - Removed external Substations in the Explosive rocket factory.
 
 ## v0.29.1
-- Fixed misplaced inserters and Requester chest in Foundry Quality Enhancer ([Issue 3](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/3))
+- Fixed misplaced inserters and Requester chest in Foundry Quality Upcycler ([Issue 3](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/3))
 - Rebuilt refined concrete (Vulcanus) factory to hit 240/s when a problem with steam condensation is fixed ([Issue 118644](https://forums.factorio.com/118644))
 - One iron plate input was removed in Space Science.
 - Added tileable input belts for Biolab.
@@ -132,7 +141,7 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 ## v0.24.0
 - Added Space Science (240/s) and moved the old one to the Substitutes book.
 - Improved asteroid crusher load balancer. Now it can reach 950/s when one product clogs the entire system.
-- Added stock quantity parameter to Quality Enhancers.
+- Added stock quantity parameter to Quality Upcyclers.
 
 ## v0.23.0
 - Added fusion reactor, asteroid crusher, and shredder for space platform.
@@ -160,7 +169,6 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 - [Tests] Added tolerance parameter to tests.
   
 ## v0.19.0
-
 - Blueprints can now target any quality except the Rails book.
 - Reduced the quality of all electrical poles and substations to normal, except the Rails book.
 - Replaced steel chests with iron chests at the Kovarex enrichment factory to exclude them from quality switches.
@@ -168,13 +176,11 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 - Halved the required productivity percentage for all rocket fuel factories and rounded the throughput to 20, 60, or 120 per second. It is easier to calculate things and more achievable for most. In the future, I will prepare a cheat sheet with throughputs for different qualities and productivity levels.
 
 ## v0.18.0
-
 - Added upgrade planners to quality switching. The current version isn't ready to support lower-quality electric poles and substations.
 - Added FAQ.
 - Reduced quality of some pipes, all Agricultural towers, and Roboports to normal quality.
 
 ## v0.17.0
-
 - Added a special book called "To remove" for blueprints that will be removed in the future. If you need any of these, move them out.
 - Redesigned Promethium Science and increased throughput from 150/s to 240/s. Old blueprint is in 'To remove' book.
 - Grouped planet-specific blueprints into internal books.
@@ -196,7 +202,6 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 - Replaced scrap filter with output priority to reduce Scrap Recycler clogging.
 
 ## v0.16.0
-
 - Added Promethium Science and Quantum Processor factories.
 - Added Cryogenic Science(120/s) and Fusion Power Cell(144/s).
 - Added additional heating towers and made minor changes to spoilage management for most Gleba blueprints. I did this because, after several hundred hours of stress testing in the lab, some designs failed for unknown reasons. The game showed nutrients but somehow under the hood, there was only spoilage.
@@ -206,82 +211,69 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 - Fluoroketone(Cold) factory also accept Fluoroketone(hot), especially useful with combination of Cryogenic Science farms. The pipes of both factories match now.
 
 ## v0.14.0
-
 - Added Lithium plate, Fluoroketone(Cold), ice and ammonia factories.
 - Moved a few heat pipes and added electric poles to the power plant for Gleba, Aquilo.
 - Reduced space by 10% and overall power consumption by replacing the Cryogenic plant with a Chemical plant producing solid fuel for Rocket fuel.
 
 ## v0.13.0
-
 - Added Rocket fuel and electricity(408 MW) for Gleba and Aquilo.
 
 ## v0.12.0
-
 - Added Carbon Fiber, Sulfur, and Plastic at Gleba.
 - Redesigned bacteria management for copper and iron plates using better-quality chests. Now blueprints produce stable 240/s after warm-up.
 - Added missing lamps across various blueprints.
 - Updated blueprint image.
 
 ## v0.11.0
-
 - Added Copper and Iron plate factories at Gleba.
 - Added extra anti-spoilage changes to Yumako Mash, Jelly, and Bioflux.
 - Added inserter at the end of the electric furnaces producing copper and iron plates. Blueprint didn't always produce a perfect 240/s.
 
 ## v0.10.0
-
 - Added Agricultural Science(60/s).
 - Added Yumako Mash, Jelly, Bioflux, and Agricultural Tower farm.
 
 ## v0.9.0
-
 - Added Metallurgic and Electromagnetic Science - both 120/s.
 - Redesigned Low Density Structure factory for Vulcanus. 20% less space and a more visually pleasing arrangement.
 
 ## v0.8.0
-
 - Added Scrap Recycler for normal quality products needed in manufacturing. Should be placed before Quality Recycler or as a separate line. Allows to set 9 exclusive filters or 45 mixed but the number of chests can be extended.
-- Added Quality Enhancer(Electric furnace).
+- Added Quality Upcycler(Electric furnace).
 - Quality Recycler allows to set of unlimited amounts of unwanted products. You can add them in Constant Combinator and this setting is shared across all Quality Recyclers.
-- Reduced number of requested items from 200 to 20 for Quality Enhancers. It allows for better resource management where more machines can work in parallel. Chests will trash any exceeding number of resources.
+- Reduced number of requested items from 200 to 20 for Quality Upcyclers. It allows for better resource management where more machines can work in parallel. Chests will trash any exceeding number of resources.
 - Changed requester chests to buffer chests for rare and epic quality results. It allows sharing resources to speed up legendary crafting. Solves the problem of resource hoarding by one type of product. When there were not enough rare and epic ingredients, many machines simply stopped and only legendary quality ones worked. Just make sure you have a separate logistics network for such farms, as it will use all the rare and above ingredients until the chest is full of legendaries.
-- Fixed not linked ingredient parameters in Quality Enhancer(Foundry).
+- Fixed not linked ingredient parameters in Quality Upcycler(Foundry).
 
 ## v0.7.0
-
 - Added Rocket Fuel for Fulgora.
 - Added factories for Tungsten plate, Tungsten carbide, Plastic, Rocket Fuel, and Low Density Structure at Vulcanus.
-- Quality Enhancers have an additional 2-3 beacons for legendary crafting to speed up things.
+- Quality Upcyclers have an additional 2-3 beacons for legendary crafting to speed up things.
 - Supercapacitor directly produces Holmium Solution because there are not so many places to use it so it doesn't make sense to deliver it.
 
 ## v0.6.0
-
 - Added Holmium plate(960/s)
 - Added Superconductor(480/s)
 - Added Supercapacitor(120/s)
-- Added to Quality Enhancers missing pipes and extra inserters that transfer byproducts directly to machines to reduce the number of items on the belt. Lamps and poles were slightly moved.
-- [BUG] Changed in Quality Enhancers quality modules to productivity modules in legendary machines.
+- Added to Quality Upcyclers missing pipes and extra inserters that transfer byproducts directly to machines to reduce the number of items on the belt. Lamps and poles were slightly moved.
+- [BUG] Changed in Quality Upcyclers quality modules to productivity modules in legendary machines.
 - Quality Recycler allows to setting of up to 4 filters for unwanted products above rare quality to recycle. Done for scrap by default. The chests were slightly moved.
 
 ## v0.5.0
-
-- Added universal Quality Recycler (below rare) and Quality Enhancer (rare and above).
+- Added universal Quality Recycler (below rare) and Quality Upcycler (rare and above).
 - Renamed book from 'stackable' to 'tileable' factories.
 
 ## v0.4.0
-
 - [Rails] Added Military Science (480/s).
 - [Rails] Added Production Science (480/s).
 - [Rails] Added Biolab (57000 SPM). A typical rail setup of 960/s can feed up to 8 of these and generate 456000 SPM.
 
 ## v0.3.1
-
 - [Rails] Unified power poles connections.
 - [Rails] Replaced bulk inserters with stack inserters for unloading onto belts.
 - [Rails] Added missing train station requester setups.
 
 ## v0.3.0
-
 - Added Nuclear Fuel factory.
 - Added Battery factory.
 - Rebuilt sulfur and sulfuric acid setup, same space, twice more sulfur(480/s), and 3 times more sulfuric acid(9000/s). Force build will work on previous versions.
@@ -289,13 +281,11 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 - Added experimental rail version of factories integrated with [10 Books Full of Rails](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails)
 
 ## v0.2.0
-
 - Added belt input information for factories with more than two inputs.
 - Added Military Science
 - Rebuilt uranium processing to use belts and uranium ore directly.
 
 ## v0.1.0
-
 - Initial version
 
 </details>
