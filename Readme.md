@@ -7,13 +7,21 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.43.0
+- Added Bitter Egg(silo) factory.
+- Plastic, Rocket Fuel, Sulfur, Sulfuric Acid, Lubricant Plates, Steel, Inserter factories across Nauvis, Vulcanus, Fulgora, Gleba, and Space were unified, parametrized, and most became Universal. In total, 17 blueprints were removed.
+- The Explosive Rocket factory was reduced in half to fit on smaller ships.
+- Removed remaining electric poles. Only exceptions are big drill and agricultural tower.
+- Reduced book size by 7%.
+
 ## v0.42.0
-- Unsafe downgrades for belts and inserters became safe switches and moved it to Upgrade & Switch tab.
+- Unsafe downgrades for belts and inserters became safe switches and were moved to the Upgrade & Switch tab.
 - Unified inserters and removed belt braiding/weaving techniques.
 - Replaced Recyclers with Heating Towers where possible for Gleba blueprints.
-- Included only one quarter of solar power plant. 42.5 MW out of 170 MW.
+- Included only one quarter of the solar power plant. 42.5 MW out of 170 MW.
 - Removed space science(5/s) space platform.
 - Reduced book size by 9%.
+- The Railgun ammo factory was reduced in half to fit on smaller ships.
 - Lots of minor changes.
 
 ## v0.41.0
