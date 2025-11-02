@@ -7,9 +7,17 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.44.0
+- Added Chaos Monkey(resiliency tool) in Tools.
+- Removed flamethrower and pump factories as Smart Mall serves its purpose.
+- Reduced size of Railgun and Fusion Reactor(3.5GW) factories.
+- Beacon factory is more tileable.
+- Removed the situation where the backup generator could trigger critical and warning alerts at once.
+- Fixed clog possibilities of Metallurgic, Lubricant(Universal), Bacteria Cultivation, Sulfur(Gleba), Jelly, Yumako, Agricultural Science factories thanks to Chaos Monkey.
+
 ## v0.43.0
 - Added Bitter Egg(silo) factory.
-- Plastic, Rocket Fuel, Sulfur, Sulfuric Acid, Lubricant Plates, Steel, Inserter factories across Nauvis, Vulcanus, Fulgora, Gleba, and Space were unified, parametrized, and most became Universal. In total, 17 blueprints were removed.
+- Plastic, Rocket Fuel, Sulfur, Sulfuric Acid, Lubricant, Plates, Steel, Inserter factories across Nauvis, Vulcanus, Fulgora, Gleba, and Space were unified, parametrized, and most became Universal. In total, 18 blueprints were removed.
 - The Explosive Rocket factory was reduced in half to fit on smaller ships.
 - Removed remaining electric poles. Only exceptions are big drill and agricultural tower.
 - Reduced book size by 7%.
