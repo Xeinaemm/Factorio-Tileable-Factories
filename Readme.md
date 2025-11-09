@@ -7,6 +7,12 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.45.0
+- Added Module Switches.
+- Improved efficiency of Scrap Recycler, Quality Recyclers, and Shredder. They should be able to process at least half of the input belt of any configuration.
+- Military Science is more tileable.
+- Fixed the clog possibility of the Carbon Fiber factory.
+
 ## v0.44.0
 - Added Chaos Monkey(resiliency tool) in Tools.
 - Removed flamethrower and pump factories as Smart Mall serves its purpose.
