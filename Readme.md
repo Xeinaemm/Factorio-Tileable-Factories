@@ -7,6 +7,14 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.46.0
+- Added LDS Shuffle.
+- Adjusted Cryogenic Science to 240/s to align with other science blueprints.
+- Reduced sizes of Fusion Reactor(22.5GW), Scrap Recycler(120/s), Lithium Plate, Rocket Fuel(Aquilo) and Production Science by 5-10%.
+- Refined Concrete factories are more tileable.
+- Removed Acid neutralisation from all universal blueprints to make blueprints less confusing.
+- All blueprints that use coal liquefaction are tileable with each other and cross-share pipes to initiate auto-startup.
+
 ## v0.45.1
 - Fixed Quality Recycler (asteroid) getting clogged due to incorrect wire color.
 
