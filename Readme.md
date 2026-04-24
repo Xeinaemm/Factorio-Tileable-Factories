@@ -2,10 +2,20 @@
 
 Book of factories that are as simple and compact as possible to build advanced factories.
 
-You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq3vJ2slIWEDAXEeM) or [Factorioprints](https://factorioprints.com/view/-OBdq3vJ2slIWEDAXEeM).
+You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq3vJ2slIWEDAXEeM), [Factorioprints](https://factorioprints.com/view/-OBdq3vJ2slIWEDAXEeM) and 
+[Factorio Codex](https://www.factoriocodex.com/blueprints/44) .
 
 <details>
 <summary>Changelog</summary>
+
+## v0.47.0
+- Added Cargo landing pad(2400/s) in Space.
+- Improved ice platform output from 12/s to 18/s.
+- Size of Ammonia/Ice subfactories were reduced across Aquilo blueprints.
+- Reduced sizes of Fusion Reactor(22.5GW), Electromagnetic Science and Fluoroketone(Cold) by 5-9%.
+- Fixed lack of tileability of Fusion power cell factory.
+- Parametrized backup generator.
+- Fixed wrong underground belt line in Scrap Recycler(120/s)([Issue 22](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/22))
 
 ## v0.46.0
 - Added LDS Shuffle.
