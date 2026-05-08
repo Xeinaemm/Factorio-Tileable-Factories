@@ -8,6 +8,12 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.50.0
+- Added Nuclear Reactor(2.8 GW) in Power.
+- Added parameterized blueprint for Yumako and Jellynut artificial soil in Gleba.
+- Rebuilt Fusion Reactor(22.5GW) to fix Requester chests that were out of reach of Roboports([Issue 23](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/23))
+- Fixed issue with the Carbon Fiber factory becoming clogged during significant power fluctuations.
+
 ## v0.49.0
 - Added universal Silo in Space.
 - Updated Quality Switches with missing items.
