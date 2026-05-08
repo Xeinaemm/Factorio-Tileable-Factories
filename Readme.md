@@ -8,6 +8,14 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.49.0
+- Added universal Silo in Space.
+- Updated Quality Switches with missing items.
+- Improved universal factory sulfur output in mixed-mode from 390/s to 455/s.
+- Unified and parameterized Yumako and Jellynut(960/s) factories into one blueprint. Fixed bug where temporary clog could last a few minutes.
+- Added missing roboport section in Cargo Landing Pad.
+- Added missing pipe in Fusion Reactor(22.5GW).
+
 ## v0.48.0
 - Added Light/Medium/Heavy Hulls, Thruster and Storage for Spaceships in Space.
 - Removed asymmetry of Cargo Bays in Cargo Landing Pad(2400/s).
@@ -21,7 +29,7 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 - Size of Ammonia/Ice subfactories were reduced across Aquilo blueprints.
 - Reduced sizes of Fusion Reactor(22.5GW), Electromagnetic Science and Fluoroketone(Cold) by 5-9%.
 - Fixed lack of tileability of Fusion power cell factory.
-- Parametrized backup generator.
+- Parameterized backup generator.
 - Fixed wrong underground belt line in Scrap Recycler(120/s)([Issue 22](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/22))
 
 ## v0.46.0
@@ -51,7 +59,7 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 
 ## v0.43.0
 - Added Bitter Egg(silo) factory.
-- Plastic, Rocket Fuel, Sulfur, Sulfuric Acid, Lubricant, Plates, Steel, Inserter factories across Nauvis, Vulcanus, Fulgora, Gleba, and Space were unified, parametrized, and most became Universal. In total, 18 blueprints were removed.
+- Plastic, Rocket Fuel, Sulfur, Sulfuric Acid, Lubricant, Plates, Steel, Inserter factories across Nauvis, Vulcanus, Fulgora, Gleba, and Space were unified, parameterized, and most became Universal. In total, 18 blueprints were removed.
 - Explosive Rocket factory was reduced in half to fit on smaller ships.
 - Removed remaining electric poles. Only exceptions are big drill and agricultural tower.
 - Reduced book size by 7%.
