@@ -1,12 +1,18 @@
 # Tileable Factories
 
-Book of factories that are as simple and compact as possible to build advanced factories.
-
 You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq3vJ2slIWEDAXEeM), [Factorioprints](https://factorioprints.com/view/-OBdq3vJ2slIWEDAXEeM) and 
 [Factorio Codex](https://www.factoriocodex.com/blueprints/44).
 
 <details>
 <summary>Changelog</summary>
+
+## v0.51.0
+- Added landfill factory in Universal.
+- Added parameterized blueprint for Yumako and Jellynut overgrowth soil in Gleba.
+- Updated the nuclear reactor (2.8 GW) for symmetry and added additional roboports to ensure accessibility in every direction.
+- Added beacons for silo and wagon drilling.
+- Updated belt throughput tolerance algorithm to treat exceeding the upper bound as a failure by default.
+- Removed unnecessary controlled behavior of Requester chests in Gleba blueprints that provide nutrients for startup.
 
 ## v0.50.0
 - Added Nuclear Reactor(2.8 GW) in Power.
