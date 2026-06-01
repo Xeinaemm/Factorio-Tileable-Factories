@@ -6,25 +6,32 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.52.0
+- Added Starter book with early and midgame phase carrying into Space Age under 8h(There is no spoon).
+- Cleaned up Smart Mall wire spaghetti and removed bottleneck of input inserter with fixed stack size.
+- Reduced size of Asteroid Crusher by 30% and simplified parameters to require only recipe.
+- Added UPS-friendly drilling that directly produces molten metal.
+- Updated nuclear reactor to be vertically, horizontally, and symmetrically tileable and halved number of roboports.
+
 ## v0.51.0
 - Added landfill factory in Universal.
 - Added parameterized blueprint for Yumako and Jellynut overgrowth soil in Gleba.
-- Updated the nuclear reactor (2.8 GW) for symmetry and added additional roboports to ensure accessibility in every direction.
+- Updated nuclear reactor (2.8 GW) for symmetry and added additional roboports to ensure accessibility in every direction.
 - Added beacons for silo and wagon drilling.
-- Updated belt throughput tolerance algorithm to treat exceeding the upper bound as a failure by default.
+- Updated belt throughput tolerance algorithm to treat exceeding upper bound as failure by default.
 - Removed unnecessary controlled behavior of Requester chests in Gleba blueprints that provide nutrients for startup.
 
 ## v0.50.0
 - Added Nuclear Reactor(2.8 GW) in Power.
 - Added parameterized blueprint for Yumako and Jellynut artificial soil in Gleba.
 - Rebuilt Fusion Reactor(22.5GW) to fix Requester chests that were out of reach of Roboports([Issue 23](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/23))
-- Fixed issue with the Carbon Fiber factory becoming clogged during significant power fluctuations.
+- Fixed issue with Carbon Fiber factory becoming clogged during significant power fluctuations.
 
 ## v0.49.0
 - Added universal Silo in Space.
 - Updated Quality Switches with missing items.
 - Improved universal factory sulfur output in mixed-mode from 390/s to 455/s.
-- Unified and parameterized Yumako and Jellynut(960/s) factories into one blueprint. Fixed bug where temporary clog could last a few minutes.
+- Unified and parameterized Yumako and Jellynut(960/s) factories into one blueprint. Fixed bug where temporary clog could last few minutes.
 - Added missing roboport section in Cargo Landing Pad.
 - Added missing pipe in Fusion Reactor(22.5GW).
 
@@ -33,7 +40,7 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 - Removed asymmetry of Cargo Bays in Cargo Landing Pad(2400/s).
 - Reduced Electromagnetic Science size by additional 5%.
 - Rocket fuel(Universal) and Lubricant(Universal) are tileable and can share beacons.
-- Requester chests across Gleba blueprints will always trash unrequested items, even if the blueprint has a self-cleanup option.
+- Requester chests across Gleba blueprints will always trash unrequested items, even if blueprint has self-cleanup option.
 
 ## v0.47.0
 - Added Cargo Landing Pad(2400/s) in Space.
