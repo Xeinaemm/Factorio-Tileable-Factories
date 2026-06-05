@@ -6,6 +6,9 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.53.1
+- Fixed missing inserters in "small" starter.
+
 ## v0.53.0
 - Redesigned Nauvis "small" starter, and some minor changes and additions to the "large" starter. There is no Spoon: 4:19:49h.
 - Added interstellar ship in Starter book, for first voyages.
