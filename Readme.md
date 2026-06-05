@@ -6,6 +6,10 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.53.0
+- Redesigned Nauvis "small" starter, and some minor changes and additions to the "large" starter. There is no Spoon: 4:19:49h.
+- Added interstellar ship in Starter book, for first voyages.
+
 ## v0.52.0
 - Added Starter book with early and midgame phase carrying into Space Age under 8h(There is no spoon).
 - Cleaned up Smart Mall wire spaghetti and removed bottleneck of input inserter with fixed stack size.
