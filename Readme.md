@@ -6,6 +6,13 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.54.0
+- Added new biolab(3560 SPM) in Lab book allowing daisy chain and one-way belt system.
+- Added interstellar ship in the Starter book, for all planets up to the Aquilo.
+- Simplified Progress Bar to require only display panel.
+- Removed unnecessary combinators and updated requester chests for the most heavily used recipes for continuous production in "large" starter.
+- Updated first interstellar ship, so it can survive parking around Fulgora.
+
 ## v0.53.1
 - Fixed missing inserters in "small" starter.
 
