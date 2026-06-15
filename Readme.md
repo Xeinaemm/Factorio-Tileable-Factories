@@ -6,6 +6,18 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.55.0
+- Added Vulcanus starters.
+- Redesigned universal LDS factory to utilize Foundries and increased throughput to 240/s. Removed Vulcanus variant.
+- Redesigned space platform factory to utilize Foundries.
+- Redesigned Tungsten carbide to utilize a Cryogenic plant.
+- Added leader-follower concept in Tools with a description.
+- Polished minor aspects in "large" Nauvis starter.
+- Replaced steel plate factory with UPS-optimized version.
+- Added machine batch crafting size setting and removed input inserter bottleneck for Smart Malls.
+- Removed space casino design [FFF-442](https://factorio.com/blog/post/fff-442)
+- Added Factorio version in description to distinguish between 2.0 and 2.1
+
 ## v0.54.0
 - Added new biolab(3560 SPM) in Lab book allowing daisy chain and one-way belt system.
 - Added interstellar ship in the Starter book, for all planets up to the Aquilo.
