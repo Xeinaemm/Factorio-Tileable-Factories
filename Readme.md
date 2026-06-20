@@ -6,6 +6,11 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.56.0 (Last big update for 2.0)
+- Fixed wrong inserter in "large" Nauvis starter
+- Semi-redesigned many places in the "large" Vulcanus starter to fix every encountered bottleneck.
+- Redesigned "small" Vulcanus to incorporate every productivity bonus out of the box.
+
 ## v0.55.0
 - Added Vulcanus starters.
 - Redesigned universal LDS factory to utilize Foundries and increased throughput to 240/s. Removed Vulcanus variant.
