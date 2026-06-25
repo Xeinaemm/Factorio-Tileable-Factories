@@ -6,10 +6,21 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 <details>
 <summary>Changelog</summary>
 
+## v0.57.0
+- Added support for Factorio 2.1.
+- Added Cargo landing pads for version 2.1 (96960/s and 152320/s) and removed version 2.0
+- Updated fluid flow algorithm to reflect changes in version 2.1.
+- Updated Smart Mall to include changes in version 2.1 and remove recursion([Issue 24](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/24)).
+- Renamed groups for Smart Mall and Quality Upcyclers to force settings update([Issue 24](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/24)).
+- Updated descriptions for Smart Mall and Quality Upcyclers([Issue 24](https://github.com/Xeinaemm/Factorio-Tileable-Factories/issues/24)).
+- Redesigned Quality Upcyclers countering changes to outdated space casino.
+- Updated Scrap Recycler (120/s) to reflect changes to concrete recycling in version 2.1.
+- Added "hot potato" technique to Tools.
+
 ## v0.56.0 (Last big update for 2.0)
 - Fixed wrong inserter in "large" Nauvis starter
-- Semi-redesigned many places in the "large" Vulcanus starter to fix every encountered bottleneck.
-- Redesigned "small" Vulcanus to incorporate every productivity bonus out of the box.
+- Semi-redesigned many places in "large" Vulcanus starter to fix every encountered bottleneck.
+- Redesigned "small" Vulcanus to incorporate every productivity bonus out of box.
 
 ## v0.55.0
 - Added Vulcanus starters.
@@ -25,16 +36,16 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 
 ## v0.54.0
 - Added new biolab(3560 SPM) in Lab book allowing daisy chain and one-way belt system.
-- Added interstellar ship in the Starter book, for all planets up to the Aquilo.
+- Added interstellar ship in Starter book, for all planets up to Aquilo.
 - Simplified Progress Bar to require only display panel.
-- Removed unnecessary combinators and updated requester chests for the most heavily used recipes for continuous production in "large" starter.
+- Removed unnecessary combinators and updated requester chests for most heavily used recipes for continuous production in "large" starter.
 - Updated first interstellar ship, so it can survive parking around Fulgora.
 
 ## v0.53.1
 - Fixed missing inserters in "small" starter.
 
 ## v0.53.0
-- Redesigned Nauvis "small" starter, and some minor changes and additions to the "large" starter. There is no Spoon: 4:19:49h.
+- Redesigned Nauvis "small" starter, and some minor changes and additions to "large" starter. There is no Spoon: 4:19:49h.
 - Added interstellar ship in Starter book, for first voyages.
 
 ## v0.52.0
