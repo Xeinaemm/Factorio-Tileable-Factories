@@ -10,6 +10,10 @@ You can also find it on [Factorio.School](https://www.factorio.school/view/-OBdq
 
 Previous versions have been [archived](https://github.com/Xeinaemm/Factorio-Tileable-Factories/releases/tag/v0.57.0).
 
+## v0.60.0 (Factorio 2.1)
+- Updated Refueling station bottlenecks related to asteroid chunks.
+- Updated book to stable version.
+
 ## v0.59.0 (Factorio 2.1)
 - Added Refueling Station in Space.
 - Removed redundant hulls(right ones) as game now supports blueprint flipping.
